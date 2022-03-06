@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <script src="script.js"></script>
+    <body>
+        <h1>Create Event</h1>
+        <form method="post">
+            <div>
+                <label>Date:</label>
+                <input type="date" id="date" required>
+            </div>
+            <div>
+                <label>Subject:</label>
+                <select name="subject" id="subject" required>
+                    <script>writeOptions();</script>
+                </select>
+            </div>
+            <div>
+                <label>Assignment Type:</label>
+                <select name="assignment" id="assignment" required>
+                    <option value="Homework">Homework</option>
+                    <option value="Quiz">Quiz</option>
+                    <option value="Test">Test</option>
+                    <option value="Final Exam">Final Exam</option>
+                </select>
+            </div>
+            <div>
+                <input class="button" type="submit" value="Add Event" onclick="collectData('event'); goToPage('info.html');">
+                <input class="button" type="button" value="Back" onclick="goToPage('info.html');">
+            </div>
+        </form>
+    </body>
+</html>

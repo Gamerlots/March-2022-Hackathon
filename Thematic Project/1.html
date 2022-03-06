@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <script src="script.js"></script>
+    <body>
+        <h1>Get Started with StudyLife</h1>
+        <form method="post">
+            <h2>1. Fill in your account information.</h2>
+            <div>
+                <label>Email Address:</label>
+                <input type="email" id="email" placeholder="Type your email." required>
+            </div>
+            <div>
+                <label>Username:</label>
+                <input type="text" id="username" placeholder="Type your username." required>
+            </div>
+            <div>
+                <label>Password:</label>
+                <input type="password" id="password" placeholder="Type your password." minlength="8" required>
+            </div>
+                <input class="button" type="button" value="Back" onclick="goToPage('index.html')">
+                <input class="button" type="button" value="Next" onclick="collectData('info'); goToPage('2.html')">
+            </div>
+        </form>
+    </body>
+</html>

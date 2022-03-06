@@ -1,0 +1,62 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    background-color: rgb(70, 28, 255); /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, rgb(28, 134, 255), rgb(96, 28, 255));
+}
+
+p, h1, h2, h3, h4, h5, h6, label {
+    color: white;
+}
+
+h1 {
+    display: grid;
+    font-size: 40px;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 26px;
+    margin-left: 15px;
+}
+
+input {
+    border: none;
+    border-radius: 5px;
+    padding-bottom: 5px;
+    padding-right: 7px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+label {
+    font-size: 22px;
+    margin-left: 15px;
+}
+
+.button {
+    background-color: rgb(13, 158, 255);
+    border: none;
+    border-radius: 7.5px;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.checkbox {
+    height: 20px;
+    width: 20px;
+}
+
+.main {
+    display: grid;
+    justify-items: center;
+}
+

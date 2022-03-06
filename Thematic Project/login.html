@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <script src="script.js"></script>
+    <body>
+        <form method="post">
+            <h1>Login to StudyLife</h1>
+            <div>
+                <label>Username:</label>
+                <input type="text" id="username" required/>
+            </div>
+            <div>
+                <label>Password:</label>
+                <input type="password" id="password" minlength="8" required/>
+            </div>
+                <input class="button" type="button" value="Back" onclick="goToPage('index.html')">
+                <input class="button" type="button" value="Next" onclick="if (checkAccountInfo()) { goToPage('info.html'); }">
+            </div>
+        </form>
+    </body>
+</html>

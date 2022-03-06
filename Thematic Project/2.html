@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <script src="script.js"></script>
+    <body>
+        <h1>Get Started with StudyLife</h1>
+        <form method="post">
+            <h2>2. Choose the subjects to track.</h2>
+            <div>
+                <input class="checkbox" id="english" type="checkbox">
+                <label>English</label>
+            </div>
+            <div>
+                <input class="checkbox" id="mathematics" type="checkbox">
+                <label>Mathematics</label>
+            </div>
+            <div>
+                <input class="checkbox" id="science" type="checkbox">
+                <label>Science</label>
+            </div>
+            <div>
+                <input class="checkbox" id="socialStudies" type="checkbox">
+                <label>Social Studies</label>
+            </div>
+            <div>
+                <input class="checkbox" id="foreignLanguage" type="checkbox">
+                <label>Foreign Language</label>
+            </div>
+            <div>
+                <input class="button" type="button" value="Back" onclick="goToPage('1.html')">
+                <input class="button" type="button" value="Next" onclick="collectData('subject'); goToPage('index.html');">
+            </div>
+        </form>
+    </body>
+</html>
